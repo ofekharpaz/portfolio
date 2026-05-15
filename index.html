@@ -27,6 +27,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -42,6 +43,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -55,7 +57,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Ofek Harpaz</h1>
-        <p class="section__text__p2">Python Engineer and FullStack Developer</p>
+        <p class="section__text__p2">Python & AI Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -78,7 +80,7 @@
           <a href="https://github.com/ofekharpaz" target="_blank">
             <img
               src="./assets/github.png"
-              alt="My Github profile"
+              alt="My GitHub profile"
               class="icon"
             />
           </a>
@@ -98,7 +100,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>4 years <br />Software Engineer</p>
+              <p>4 years <br />Python & AI Engineer</p>
             </div>
             <div class="details-container">
               <img
@@ -107,12 +109,12 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />GPA of 93</p>
+              <p>B.Sc. Software Engineering<br />GPA of 93</p>
             </div>
           </div>
           <div class="text-container-about">
             <p>
-              Analytical software engineer with four years of experience in Python development, excelling in high-growth                  startup environments. An autodidact with a true love for the craft, I specialize in building complex, functioning codebases from the ground up.
+              Python developer with 4 years of experience at AI-focused startups, specializing in data pipelines, computer vision, and autonomous systems. Driven by a passion for problem-solving and building impactful, data-driven solutions.
             </p>
           </div>
         </div>
@@ -130,30 +132,8 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Python Development</h2>
+            <h2 class="experience-sub-title">Python & Data Engineering</h2>
             <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pandas</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AI models</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -183,7 +163,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Sensors</h3>
+                  <h3>Pandas/NumPy</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -194,8 +174,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Pytest</h3>
-                  <p>Intermediate</p>
+                  <h3>OpenCV</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -216,7 +196,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Github</h3>
+                  <h3>GitHub</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -233,7 +213,7 @@
                 />
                 <div>
                   <h3>Javascript</h3>
-                  <p>Experianced</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -276,8 +256,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>React</h3>
-                  <p>Beginner&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                  <h3>Flask</h3>
+                  <p>Intermediate&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                 </div>
               </article>
               <article>
@@ -287,7 +267,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Flask</h3>
+                  <h3>React</h3>
                   <p>Beginner&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                 </div>
               </article>
@@ -295,6 +275,60 @@
           </div>
         </div>
       </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MCP Backtest Tool</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ofekharpaz/MCP-backtesting-tool', '_blank')"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mask Detection System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ofekharpaz/MaskDetection/tree/main', '_blank')"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -324,6 +358,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
